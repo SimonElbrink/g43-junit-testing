@@ -11,11 +11,9 @@ public class MainTest {
     @Test
     public void test_isAdult_true(){
         int age = 18;
-
-       boolean isAdult = Main.isAdult(age);
+        boolean isAdult = Main.isAdult(age);
 
        Assertions.assertTrue(isAdult);
-
     }
     @Test
     public void test_isAdult_false(){
